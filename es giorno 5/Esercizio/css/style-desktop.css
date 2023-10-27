@@ -1,6 +1,6 @@
 /* general*/
 html {
- font-size: 1em;
+ font-size: 1.5em;
 }
 
 body {
@@ -60,35 +60,35 @@ main h3, main p {
     margin-bottom: 20px ;
 }
 .floatcontainer{
-    padding-left: 12%;
-    padding-top: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .circle {
     display: inline-block;
     border: 1px solid #dee1e3;
-    height:450px;
-    width: 450px; 
+    height:600px;
+    width: 600px; 
     border-radius: 50%;
     background-color: black;
     background-image: url(../images/notebook.jpg);
     background-size: contain;
-    margin: 0 7%;
+    margin-left: 23%;
 
 }
 .float {
     display: inline-block;
     height: 500px;
-    width: 500px;
+    width: 800px;
+    margin-left: 5%;
 }
-
-
 
 .backgroundRed {
     background-color: #e22d0e;
     color: whitesmoke;
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .backgroundRed h2 {
@@ -99,6 +99,7 @@ main h3, main p {
 .backgroundRed p:first-of-type {
     font-style: italic;
     font-size: 1rem;
+    margin: 40px 0;
 }
 .backgroundRed p:nth-child(2n+1) {
     font-size: 1rem;
@@ -108,18 +109,19 @@ main h3, main p {
     font-size: 0.8rem;
 }
 
-.float2 {
-padding: 200px;
-}
+
 .box {
     display: inline-block;
+    text-align: center;
     border: 1px solid #dee1e3;
-    width: 25%;
-    
+    width: 30%;
+    height: 30%;
+    margin-left: 2.5%;
 }
 
 .box img {
     width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -127,6 +129,8 @@ footer {
     color: #c8e7f0;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
+    margin-top: 200px;
 }
 
 footer h2 {
